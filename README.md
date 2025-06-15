@@ -38,7 +38,7 @@ Claude Code を使用していると、以下の場所にデータファイル�
 
 ```bash
 # GitHubからクローン
-git clone https://github.com/[your-username]/claude-code-token-visualizer.git
+git clone https://github.com/r2sake/ClaudeCodeTokenVisualizer.git
 cd claude-code-token-visualizer
 ```
 
@@ -228,14 +228,8 @@ claude-code-token-visualizer/
 ## 🤝 コントリビューション
 
 ### バグ報告・機能要望
-[GitHub Issues](https://github.com/[your-username]/claude-code-token-visualizer/issues) からお気軽にご報告ください。
+[GitHub Issues](https://github.com/r2sake/ClaudeCodeTokenVisualizer/issues) からお気軽にご報告ください。
 
-### 開発に参加
-1. このリポジトリをフォーク
-2. 機能ブランチを作成 (`git checkout -b feature/amazing-feature`)
-3. 変更をコミット (`git commit -m 'Add amazing feature'`)
-4. ブランチにプッシュ (`git push origin feature/amazing-feature`)
-5. プルリクエストを作成
 
 ## 📄 ライセンス
 
