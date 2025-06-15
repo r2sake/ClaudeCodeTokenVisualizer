@@ -1,0 +1,29 @@
+{
+  "name": "claude-code-server",
+  "version": "1.0.0",
+  "description": "Backend server for Claude Code Token Visualizer - processes JSONL files and provides API endpoints",
+  "main": "index.js",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "backend",
+    "api",
+    "sqlite",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.7",
+    "glob": "^10.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

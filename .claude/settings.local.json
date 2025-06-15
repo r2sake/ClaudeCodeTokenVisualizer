@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rg:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(node:*)",
+      "Bash(sqlite3:*)",
+      "Bash(code:*)",
+      "Bash(mv:*)",
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run export-sqlite:*)",
+      "Bash(chmod:*)",
+      "Bash(npx tsc:*)",
+      "Bash(scripts/test-claude-detection.sh:*)",
+      "Bash(claude:*)",
+      "Bash(./analyze-claude-tokens.py --help)",
+      "Bash(./extract-to-sqlite.py --help)",
+      "Bash(rm:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}

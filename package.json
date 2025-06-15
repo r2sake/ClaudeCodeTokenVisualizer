@@ -1,0 +1,60 @@
+{
+  "name": "claude-code-token-visualizer",
+  "version": "1.0.0",
+  "description": "Visualize Claude Code token usage with beautiful charts and statistics",
+  "main": "index.js",
+  "homepage": "https://github.com/[your-username]/claude-code-token-visualizer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/[your-username]/claude-code-token-visualizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/[your-username]/claude-code-token-visualizer/issues"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "token",
+    "usage",
+    "visualization",
+    "analytics",
+    "dashboard",
+    "react",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"vite\"",
+    "dev:frontend": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "npm run dev",
+    "clean": "rm -rf dist .vite",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'No linter configured'",
+    "format": "echo 'No formatter configured'",
+    "test": "echo 'No tests configured'",
+    "serve": "npm run preview",
+    "build:prod": "npm run clean && npm run typecheck && npm run build",
+    "deploy": "npm run build:prod && echo 'Build complete - ready for deployment'",
+    "server": "cd server && npm start",
+    "server:dev": "cd server && npm run dev",
+    "server:install": "cd server && npm install"
+  },
+  "dependencies": {
+    "date-fns": "^3.0.0",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "concurrently": "^8.2.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0"
+  }
+}
