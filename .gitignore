@@ -27,3 +27,6 @@ dist-ssr
 project-aliases.json
 claude_projects.db
 claude_projects.db-journal
+
+# Claude Code
+.claude
